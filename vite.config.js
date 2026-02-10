@@ -262,5 +262,6 @@ export default defineConfig({
 				'@babel/types'
 			]
 		}
-	}
+	},
+	base: '/thegoodmark/'
 });
