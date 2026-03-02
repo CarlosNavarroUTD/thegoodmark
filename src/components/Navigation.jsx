@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import path from 'path';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,6 +22,7 @@ const Navigation = () => {
     { path: '/about', label: 'Nosotros' },
     { path: '/blog', label: 'Blog' },
     { path: '/contact', label: 'Contacto' },
+    {path: '/simulador', label: 'Simulador' },
   ];
 
 return (

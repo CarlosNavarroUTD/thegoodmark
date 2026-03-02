@@ -13,6 +13,7 @@ import Contact from '@/pages/Contact';
 import Catalog from '@/pages/Catalog';
 import Terms from '@/pages/Terms';
 import Privacy from '@/pages/Privacy';
+import Simulador from '@/pages/Simulador';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import FloatingWhatsApp from '@/components/FloatingWhatsApp';
@@ -35,6 +36,7 @@ function App() {
           <Route path="/catalog" element={<Catalog />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/privacy" element={<Privacy />} />
+          <Route path="/simulador" element={<Simulador />} />
         </Routes>
         <Footer />
         <FloatingWhatsApp />
