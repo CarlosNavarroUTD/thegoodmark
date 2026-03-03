@@ -22,7 +22,7 @@ const Simulador = () => {
                         asChild
                         className="bg-[#00FFFF] text-[#01257D] hover:bg-[#00FFFF]/90 text-lg px-8 py-6 rounded-full font-semibold transition-all transform hover:scale-105"
                     >
-                        <a href={simuladorUrl} target="_blank" rel="noopener noreferrer">
+                        <a href="https://cotizador.thegoodmark.com.mx/simulador" target="_blank" rel="noopener noreferrer">
                             Empieza ahora
                         </a>
                     </Button>
